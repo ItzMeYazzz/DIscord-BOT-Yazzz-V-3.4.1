@@ -1,0 +1,20 @@
+{
+  "name": "discord-bot-pro",
+  "version": "3.4.1",
+  "description": "Discord bot: musik via NodeLink (Lavalink/Shoukaku), prefix \"yz\" + slash command, 24/7 voice, moderasi, level, ekonomi, game (Monopoly, Ludo, Arcade, Mini Games), SQLite",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.6.1",
+    "shoukaku": "^4.1.1"
+  },
+  "optionalDependencies": {
+    "@napi-rs/canvas": "^0.1.65"
+  }
+}
